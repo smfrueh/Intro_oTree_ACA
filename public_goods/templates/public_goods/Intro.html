@@ -1,0 +1,12 @@
+{% extends "global/Page.html" %}
+{% load otree static %}
+
+{% block title %}
+<font color="fuchsia">Instructions</font>
+{% endblock %}
+
+{% block content %}
+<h5>{%include Constants.path_to_instructions%}</h5>
+{% next_button %}
+
+{% endblock %}

@@ -1,0 +1,15 @@
+{% extends "global/Page.html" %}
+{% load otree static %}
+
+{% block title %}
+    <font color="HotPink">Thanks for playing!</font>
+{% endblock %}
+
+{% block content %}
+<img src="{% static image1 %}" width=100 />
+
+    {% next_button %}
+
+{% endblock %}
+
+
