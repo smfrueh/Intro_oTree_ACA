@@ -46,11 +46,11 @@ ROOMS = [{
 #   of the admin interface, set it to DEMO.
 
 # for flexibility, you can set it in the environment variable OTREE_AUTH_LEVEL
-AUTH_LEVEL = environ.get('STUDY')
+AUTH_LEVEL = environ.get('OTREE_AUTH_LEVEL')
 
 ADMIN_USERNAME = 'smf'
 # for security, best to set admin password in an environment variable
-ADMIN_PASSWORD = environ.get('intro_otree_ACA_2018')
+ADMIN_PASSWORD = environ.get('password')
 
 # Consider '', None, and '0' to be empty/false
 DEBUG = (environ.get('OTREE_PRODUCTION') in {None, '', '0'})
